@@ -1,0 +1,102 @@
+.cart-container {
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Title styling */
+.text {
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+/* Container for the cart items */
+.cart {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+    gap: 20px;
+    padding: 20px;
+    background-color: #E2DFD0;
+    border-radius: 10px;
+}
+
+
+.cartcard {
+    background-color: #76885B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 5px solid white;
+    border-radius: 20px;
+    color: azure;
+    padding: 20px;
+    width: 150px;
+    max-height: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+.cartcard:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.471);
+}
+
+
+.cartcard > img {
+    width: 100%;
+    height: auto;
+    border: 5px solid black;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.423);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+.cartcard p {
+    margin: 5px 0;
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.payment {
+    background-color: #41B06E;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+    padding: 20px 20px 20px 20px;
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 580px;
+    font-size: 1.5rem;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+ .payment > button{
+    background-color: #d5e9dd;
+    padding: 20px 30px 20px 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ }
+ .payment>button:hover{
+    animation-duration: 10ms;
+    background-color: #0f1210;
+    color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.386);
+ }
+.empty >img{
+  width: 350px;
+  height: 400px;
+}
+.empty{
+    text-align: center;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

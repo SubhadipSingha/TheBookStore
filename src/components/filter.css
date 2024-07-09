@@ -1,0 +1,27 @@
+.filter-items {
+   display: inline;
+   justify-content: space-evenly;
+  }
+  
+  .filter-buttons {
+    background-color: #a4dc4b; 
+    border: 1px solid #ccc; 
+    font-family:sans-serif;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 10px 30px 10px 30px ; 
+    margin: 10px 10px 0 10px;
+    cursor: pointer; 
+    transition: background-color 0.2s ease-in-out; /* Smooth transition on hover */
+  }
+  
+  .filter-buttons:hover {
+    background-color: #e0e0e0;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.325); 
+  }
+  
+  .filter-buttons.active {
+    background-color: #ddd; 
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.325); 
+  }
+  

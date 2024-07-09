@@ -1,0 +1,23 @@
+.cataloge{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ text-align: center;
+}
+.filter-container{
+  display:grid;
+  background-color: #F6DCAC;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  border-radius: 20px;
+  padding: 4px 40px 20px 40px;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.093);
+}
+h2{
+  color: #FF0000;
+  
+}

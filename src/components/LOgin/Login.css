@@ -1,0 +1,109 @@
+
+.heading{
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 550px;
+    height: 80vh; 
+    padding: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #FFF2D7; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    
+  }
+  
+  
+  .inputfield> img {
+    width: 25px;
+    height: 25px;
+    margin: 10px 0px 10px 20px;
+    opacity: 0.7; 
+  }
+  
+  .inputfield {
+    width: 100%; 
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #fff; 
+    border-radius: 5px;
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .inputfield input {
+    width: 400px;
+    height: 50px;
+    padding: 10px 20px;
+    margin: 30px; 
+    border: none; 
+    font-size: 16px;
+    color: #333; 
+    outline: none;
+  }
+  
+ 
+  .submitoptions {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: 20px 20px 20px 20px;
+    
+
+  }
+  
+
+  
+ .submit{
+    cursor: pointer; 
+    padding: 15px 50px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight:1000;
+    color: #fff; 
+    transition: all 0.2s ease-in-out;
+    background: #3f51b5;
+    box-shadow: 2px 2px 20px 2px  #3333333a;
+  }
+  
+  .green  {
+    background: #4CAF50; 
+    border: 2px solid #049b2a;
+    color: black;
+
+  }
+  
+  .submitoptions > .Login:hover,
+  .submitoptions > .Sign_Up:hover {
+    opacity: 0.8;
+  }
+
+  .LostPassword {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333; 
+  }
+  
+  .LostPassword span {
+    cursor: pointer;
+    color: #4CAF50; 
+    text-decoration: underline; 
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .LostPassword span:hover {
+    opacity: 0.8; 
+  }
+  
